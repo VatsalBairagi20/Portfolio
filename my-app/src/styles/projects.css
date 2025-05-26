@@ -1,0 +1,82 @@
+/* src/styles/projects.css */
+.projects {
+  padding: 4rem 2rem;
+  background: #0a0a23;
+  color: white;
+  text-align: center;
+}
+
+.projects__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #8a2be2;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project__card {
+  background: #1a1a2e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.project__card:hover {
+  transform: translateY(-10px);
+}
+
+.project__img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project__name {
+  font-size: 1.3rem;
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.project__desc {
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-bottom: 1rem;
+}
+
+.project__btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  background: #00ffff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #00cccc;
+}
+
+.btn--secondary {
+  background: transparent;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+}
+
+.btn--secondary:hover {
+  background: #00ffff;
+  color: #000;
+}
