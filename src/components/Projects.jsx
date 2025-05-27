@@ -5,19 +5,33 @@ import "./../styles/projects.css";
 const projects = [
   {
     name: "WallpaperHub",
-    desc: "A category-based wallpaper app with React frontend & Flask backend, auto-fetches images via Pixabay API.",
-    image: "/images/WallpaperHub.jpg", // Put sample img in public/images
+    desc: "A category-based wallpaper app with React frontend & Flask backend, .",
+    image: "/images/WallpaperHub.png", // Put sample img in public/images
     live: "https://wallpapershub.netlify.app",
     code: "https://github.com/VatsalBairagi20/wallpaperhub",
   },
   {
-    name: "AI Buddy",
-    desc: "A safe space AI chatbot for sharing thoughts and getting motivation. Built with Flask, OpenAI API and React.",
-    image: "/images/aibuddy.png",
-    live: "#", // can be placeholder for now
-    code: "#",
+    name: "Event Management system for Academics",
+      desc: "This is a modern, full-stack Event Management web application designed to simplify the creation, organization, and tracking of events. Built using React for a dynamic, responsive frontend and Flask (Python) for a robust backend, this platform offers an efficient and user-friendly experience for both event organizers and attendees.",
+    image: "/images/EventManagement.png",
+    live: "https://paruluniversityevents.netlify.app/", // can be placeholder for now
+    code: "https://github.com/VatsalBairagi20/Event-Management-Frontend",
   },
-  // Add more projects here
+   {
+    name: "School website",
+    desc: "The official website for New Heights Public School, located in Khawasa, Madhya Pradesh, India. It provides information about the school's facilities, admission process, and contact details. The site highlights features such as a modern library, sports facilities, safe bus transportation, an ATL robotics lab, and a well-equipped biology lab. Parents and students can find essential information to learn more about the school's offerings and get in touch for admissions or inquiries.",
+    image: "/images/School.png", // Put sample img in public/images
+    live: "https://nhps.netlify.app",
+    code: "https://github.com/VatsalBairagi20/NewHeightsPublicSchool",
+  },
+   {
+    name: "Personal-Portfolio website",
+    desc: " This is the personal portfolio website of Vatsal Bairagi, showcasing his skills and projects in web development. The site likely includes information about his expertise, work samples, and ways to contact him for professional opportunities.",
+    image: "/images/Portfolio.png", 
+    live: "vatsalbairagi20.netlify.app",
+    code: "https://github.com/VatsalBairagi20/Portfolio",
+  },
+  
 ];
 
 const Projects = () => {
