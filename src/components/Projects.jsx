@@ -31,6 +31,14 @@ const projects = [
     live: "vatsalbairagi20.netlify.app",
     code: "https://github.com/VatsalBairagi20/Portfolio",
   },
+  {
+  name: "Vatsal's Dev Blog",
+  desc: "A personal blog sharing web dev tips, React + Flask projects, and real-world insights from Vatsal Bairagi.",
+  image: "/images/Blog.png",
+  live: "https://vatsal-blog.vercel.app",
+  code: "https://github.com/VatsalBairagi20/vatsal-blog",
+}
+
   
 ];
 
