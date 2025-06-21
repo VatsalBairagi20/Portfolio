@@ -34,7 +34,7 @@ const projects = [
   {
   name: "Vatsal's Dev Blog",
   desc: "A personal blog sharing web dev tips, React + Flask projects, and real-world insights from Vatsal Bairagi.",
-  image: "/images/Blog.png",
+  image: "/images/blog.jpg",
   live: "https://vatsal-blog.vercel.app",
   code: "https://github.com/VatsalBairagi20/vatsal-blog",
 }
