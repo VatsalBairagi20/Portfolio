@@ -5,7 +5,7 @@ import "./../styles/journey.css";
 const Journey = () => {
   const timeline = [
     {
-      year: "2021",
+      year: "2022",
       title: "Started B.Tech CSE",
       desc: "Enrolled in Parul University, got into coding, web dev & Python.",
     },
@@ -16,7 +16,7 @@ const Journey = () => {
     },
     {
       year: "2023",
-      title: "Internships & Python Backend",
+      title: "Learn Flask Python Backend",
       desc: "Worked on projects using Flask + MongoDB. Started WallpaperHub.",
     },
     {
