@@ -40,7 +40,7 @@ const projects = [
 },
   {
   name: "SmartSaver – Your Personal Savings Companion",
-  desc: "A sleek savings-tracking app built by Vatsal Bairagi & Aryan Dewangan, letting you set custom financial goals, monitor progress, and manage transactions with future features like smart alerts, motivational nudges, and AI-powered suggestions.",
+  desc: "A sleek savings-tracking app , letting you set custom financial goals, monitor progress, owered suggestions.",
   image: "/images/smartsaver.png", 
   live: "https://smartsaverv1.netlify.app/",
   code: "https://github.com/VatsalBairagi20/SmartSaver---product-page", 
@@ -72,4 +72,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
